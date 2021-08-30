@@ -1,0 +1,94 @@
+body{
+    background-color:black;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+     #container {
+        background-color: white;
+        width: 900px;
+        margin: 20px auto;
+        border-radius: 20px;
+ }
+
+ header {
+     padding-top: 20px;
+     border-radius: 20px 20px 0 0;
+     
+ }
+
+ header img {
+     display: block;
+     width: 30%;
+     margin: 0 auto;
+ }
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #0D0D0D;
+    text-shadow: 2px 2px 2px gold;
+}
+nav {
+    background-color:black ;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    color:gold;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: black;
+    color:gold;
+}
+
+main {
+background-color: gold;
+padding: 20px;
+margin: 0 20px 20px 20px;
+}
+
+
+main h2 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+main img {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    padding: 20px;
+}
+footer {
+    background-color: gold;
+    padding: 60px 0;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.active {
+    background-color: black;
+    color:gold; 
+}
+
+.pro_head {
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+}
