@@ -1,0 +1,108 @@
+body{
+    background-color:#010101 ;
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Mobile Styles */
+
+    #container{
+        background-color: #D91A1A;
+        margin: 20px;
+    }
+
+    header{
+        padding: 60px 40px;
+        border-bottom: 4px ridge #D91A1A;
+    }
+
+   header h1{
+       text-align: center;
+       font-size: 8em;
+       font-family: 'Kaushan Script', cursive;
+       color:#D91A1A;
+       
+
+   } 
+.col{
+    border: 4px ridge#D91A1A ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.col h2{
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.col img{
+    width: 50%;
+}
+
+.main_img{
+    display: none;
+}
+
+footer{
+    padding: 60px 0;
+    text-align: center;
+    border-top: 4px ridge#D91A1A ;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1em;
+    color: #D91A1A;
+}
+
+@media(min-width: 768px){
+#container{
+    width: 90%;
+    margin: 20px auto;
+}
+
+    .col {
+        width: 65%;
+        margin: 20px auto;
+    }
+    .col img{
+        width: 30%;
+
+}
+}
+
+@media(min-width: 1024px){
+    #container{
+        width: 50%;
+        border-radius: 20px;
+    }
+    #flex{
+        display: flex;
+        color:#D91A1A;
+    }
+
+    .col{
+        margin: 20px;
+        width: 100%;
+    }
+
+    .col img{
+        width: 40%;
+    }
+
+    .main_img {
+        display: block;
+        width: 30%;
+        margin: 20px auto;
+
+    }
+
+    
+}
+    
