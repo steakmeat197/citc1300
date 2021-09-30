@@ -1,0 +1,268 @@
+/* Global Styles */
+body{
+    background-image: url("/images/dsbackground.jfif");
+    background-size: cover;
+    color:#F2E85C;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+    
+    
+
+
+/* Mobile Styles */
+
+#container{
+    background-image: url("/images/dsbackground6.jfif");
+    background-size: contain;
+    background-color:rgba(rgba(255, 0, 0, 0.068), green, rgba(0, 0, 255, 0.171), alpha) ;
+    margin: 20px;
+    padding: 10px;
+    color:#F2E85C ;
+}
+.img-with-text {
+    text-align: center;
+    width:auto;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+    
+
+
+
+header{
+    background-image: url("../images/dscorps2.jfif");
+    background-size: cover;
+    padding: 75px 0;
+    font-size: x-large;
+}
+
+header h1{
+    color: #A61C28;
+    text-shadow: 2px 2px 2px #0D0D0D;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    
+    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: block;
+}
+
+nav li a{
+    display: block;
+    background-color: #A61C28;
+    color: #0D0D0D;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover{
+    background-image: url("/images/dsbackground3.jfif");
+    background-color:#F2E85C ;
+    text-shadow: 2px 2px 2px#A61C28 ;
+}
+
+nav, section, aside, .col, footer{
+    background-size: cover;
+    background-image: url("../images/dsbackground8.jfif");
+    background-color:#F2E85C ;
+    padding: 20px;
+    margin: 10px;
+    border: 4px groove #0D0D0D;
+    border-radius: 10px;
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgba(211, 211, 211, 0);
+    background-blend-mode: multiply;
+    
+}
+
+h2, h3{
+    color: #A61C28;
+    text-shadow: 2px 2px 2px #0D0D0D;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section img, aside img{
+    width: 85%;
+}
+
+.button{
+    display: block;
+    background-color: #A61C28;
+    color: #0D0D0D;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+
+.button:hover{
+    background-color:#F2E85C ;
+    text-shadow: 2px 2px 2px#A61C28 ;  
+}
+
+footer{
+    text-align: center;
+    color: #A61C28;
+}
+
+.single_col{
+    width: 81%;
+}
+
+.gallery_img{
+    border: 4px inset #A61C28;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+/* table{
+    display: none;
+} */
+iframe{
+    display: block;
+    margin: 20px auto;
+}
+#upper_flex{
+display: block;
+text-align: center;
+}
+
+
+
+/* Tablet Styles*/
+
+@media(min-width: 768px){
+    header{
+        padding: 125px;
+    }
+
+    header h1{
+        font-size: 3em;
+    }
+
+    nav{
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li{
+        display: inline-block;
+    }
+
+    nav li a{
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex{
+        display: flex;
+        width: 100%;
+    }
+
+    section, aside{
+        width: 95%;
+    }
+
+    aside img{
+        width: 50%;
+    }
+
+    .col img{
+        width: 60%;
+        border-radius: 10px;
+        border: 4px inset #0D0D0D;
+    }
+
+    .single_col{
+        width: 95%;
+    }
+
+    audio, video{
+        display: block;
+        margin: 20px auto;
+        width: 75%;
+    }
+}
+
+
+/* Desktop Styles */
+
+@media(min-width: 1024px){
+    #container{
+        width: 65%;
+        margin: 20px auto;
+        border: 4px inset #0D0D0D;
+        border-radius: 20px;
+    }
+
+    header{
+        border-radius: 20px 20px 0 0;
+    }
+    #lower_flex{
+         display: flex;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .col img{
+        width: 100%;
+    }
+
+    .single_col{
+        width: 100%;
+    }
+
+    table, tr, td{
+        border: 4px inset #0D0D0D;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img{
+        width: 100%;
+    }
+
+    .gallery{
+        display: none;
+     }
+
+     table{
+         display: block;
+     }
+
+     aside img{
+         width: 75%;
+         border-radius: 10px;
+     }
+}
