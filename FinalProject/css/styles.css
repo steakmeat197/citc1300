@@ -18,7 +18,7 @@ img{
 /* Mobile Styles */
 
 #container{
-    background-image: url("/images/dsbackground6.jfif");
+    background-image: url("/images/dsscenery1.jpg");
     background-size: contain;
     background-color:rgba(rgba(255, 0, 0, 0.068), green, rgba(0, 0, 255, 0.171), alpha) ;
     margin: 20px;
@@ -78,7 +78,7 @@ nav li a{
 }
 
 nav li a:hover{
-    background-image: url("/images/dsbackground3.jfif");
+    background-image: url("/images/dsscenery.png");
     background-color:#F2E85C ;
     text-shadow: 2px 2px 2px#A61C28 ;
 }
