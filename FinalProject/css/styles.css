@@ -40,7 +40,7 @@ img{
 
 
 header{
-    background-image: url("../images/dscorps2.jfif");
+    background-image: url("../images/dsbackground10.jpeg");
     background-size: cover;
     padding: 75px 0;
     font-size: x-large;
@@ -85,7 +85,7 @@ nav li a:hover{
 
 nav, section, aside, .col, footer{
     background-size: cover;
-    background-image: url("../images/dsbackground8.jfif");
+    background-image: url("../images/dsbackground11.png");
     background-color:#F2E85C ;
     padding: 20px;
     margin: 10px;
