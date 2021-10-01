@@ -18,8 +18,8 @@ img{
 /* Mobile Styles */
 
 #container{
-    background-image: url("/images/dsscenery1.jpg");
-    background-size: contain;
+    background-image: url("/images/dsscenery2.png");
+    background-size: cover;
     background-color:rgba(rgba(255, 0, 0, 0.068), green, rgba(0, 0, 255, 0.171), alpha) ;
     margin: 20px;
     padding: 10px;
@@ -40,7 +40,7 @@ img{
 
 
 header{
-    background-image: url("../images/dsbackground10.jpeg");
+    background-image: url("../images/dslogo11.jpg");
     background-size: cover;
     padding: 75px 0;
     font-size: x-large;
@@ -143,9 +143,9 @@ footer{
     margin: 10px auto;
 }
 
-/* table{
+ table{
     display: none;
-} */
+} 
 iframe{
     display: block;
     margin: 20px auto;
