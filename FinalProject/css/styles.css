@@ -149,7 +149,7 @@ footer{
 iframe{
     display: block;
     margin: 20px auto;
-    border: 0px;
+    border: none;
 }
 #upper_flex{
 display: block;
